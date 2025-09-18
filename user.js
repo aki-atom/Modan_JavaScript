@@ -1,8 +1,8 @@
-export const name = "ピカチュウ";
-export const name2 = "ライチュウ";
+const name = "ピカチュウ";
+const name2 = "ライチュウ";
 
-export function log(value) {
+function log(value) {
     console.log(value);
 }
 
-// export { log };
+export { name as pika, name2 as rai, log as logger };
