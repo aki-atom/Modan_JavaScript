@@ -1,5 +1,6 @@
-import { name, rai as raichu, log } from "./user.js";
+import { name as pika, log } from "./user.js";
+import { name as rai } from "./user2.js";
 
-log(name);
+log(pika);
 
-document.body.textContent = name + raichu;
+document.body.textContent = pika + rai;
