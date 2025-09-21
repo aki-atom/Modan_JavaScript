@@ -1,4 +1,5 @@
-import name from "./user.js";
+import log, { name } from "./user.js";
 
+log(name);
 
 document.body.textContent = name;
