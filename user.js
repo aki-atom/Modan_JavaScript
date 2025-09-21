@@ -4,4 +4,5 @@ function log(value) {
     console.log(value);
 }
 
-export { name, log };
+export { log };
+export default name;
