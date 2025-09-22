@@ -1,8 +1,5 @@
-export const name = "ピカチュウ";
+const pika = "ピカチュウ";
+const game = "ゼニガメ";
 
-export default function log(value) {
-    console.log(value);
-}
 
-//export { name };
-//export default log;
+export { pika, game };
