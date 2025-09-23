@@ -1,3 +1,3 @@
-import * as pokemon from "./user.js";
+import * as pokemon from "./pokemon/index.js";
 
 document.body.textContent = pokemon.pika;
