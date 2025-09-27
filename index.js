@@ -1,3 +1,3 @@
-import { pika } from "./pokemon/index.js";
+import { default as chu } from "./pokemon/index.js";
 
-document.body.textContent = pika;
+document.body.textContent = chu;

@@ -1,1 +1,1 @@
-export { default as pika } from "./pokemon.js";
+export { pika as default } from "./pokemon.js";
