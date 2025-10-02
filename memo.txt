@@ -1,0 +1,56 @@
+PS C:\Users\ookia> cd C:\Data\TEST\JavaScript\Modan_JavaScript\practice
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> pwd
+
+Path
+----
+C:\Data\TEST\JavaScript\Modan_JavaScript\practice
+
+
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> ls
+
+
+    ディレクトリ: C:\Data\TEST\JavaScript\Modan_JavaScript\practice
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----   2025/09/30 (火)      4:34            396 index.html
+
+
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn -v
+1.22.22
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> npm -v
+10.9.3
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn init -y
+yarn init v1.22.22
+warning The yes flag has been set. This will automatically answer yes to all questions, which may have security implications.
+success Saved package.json
+Done in 0.06s.
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice>
+
+
+
+
+
+
+
+
+
+
+
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn add jquery
+yarn add v1.22.22
+info No lockfile found.
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ jquery@3.7.1
+info All dependencies
+└─ jquery@3.7.1
+Done in 0.86s.
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice>
