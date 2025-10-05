@@ -21,11 +21,80 @@ PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn -v
 1.22.22
 PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> npm -v
 10.9.3
+
+// yarnの初期化
 PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn init -y
 yarn init v1.22.22
 warning The yes flag has been set. This will automatically answer yes to all questions, which may have security implications.
 success Saved package.json
 Done in 0.06s.
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice>
+
+
+PS C:\Users\ookia> cd C:\Data\TEST\JavaScript\Modan_JavaScript\practice
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> ls
+
+
+    ディレクトリ: C:\Data\TEST\JavaScript\Modan_JavaScript\practice
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----   2025/10/03 (金)      3:42                node_modules
+-a----   2025/10/03 (金)      3:52            368 index.html
+-a----   2025/10/03 (金)      3:56           1458 memo.txt
+-a----   2025/10/03 (金)      3:42            146 package.json
+-a----   2025/10/03 (金)      3:42            344 yarn.lock
+
+// --- at 2025/10/05 ---
+// yarn-jqueryの情報取得
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn list
+yarn list v1.22.22
+└─ jquery@3.7.1
+Done in 0.08s.
+
+// yarnの削除
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn remove jquery
+yarn remove v1.22.22
+[1/2] Removing module jquery...
+[2/2] Regenerating lockfile and installing missing dependencies...
+
+success Uninstalled packages.
+Done in 0.29s.
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn list
+yarn list v1.22.22
+Done in 0.06s.
+
+// jqueryのバージョンを指定してインストール
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn add jquery@3.7.0
+yarn add v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ jquery@3.7.0
+info All dependencies
+└─ jquery@3.7.0
+Done in 0.86s.
+
+// jqueryのバージョンを最新にする。
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> yarn upgrade jquery --latest
+yarn upgrade v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Rebuilding all packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ jquery@3.7.1
+info All dependencies
+└─ jquery@3.7.1
+Done in 0.35s.
 PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice>
 
 
@@ -53,4 +122,21 @@ info Direct dependencies
 info All dependencies
 └─ jquery@3.7.1
 Done in 0.86s.
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice>
+
+PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice> ls
+
+
+    ディレクトリ: C:\Data\TEST\JavaScript\Modan_JavaScript\practice
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----   2025/10/05 (日)      3:49                node_modules
+-a----   2025/10/03 (金)      3:52            368 index.html
+-a----   2025/10/05 (日)      4:06           3625 memo.txt
+-a----   2025/10/05 (日)      3:49            145 package.json
+-a----   2025/10/05 (日)      3:49            343 yarn.lock
+
+
 PS C:\Data\TEST\JavaScript\Modan_JavaScript\practice>
